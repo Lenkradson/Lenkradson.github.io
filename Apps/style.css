@@ -1,0 +1,351 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+header a {
+  color: #FBFF00;
+  list-style: none;
+  display: inline-block;
+  background: linear-gradient(#FEFFAE, #FEFFAE) center bottom;
+  /*OR bottom right OR bottom left*/
+  background-size: 0% 0.1px;
+  /*width:0% height:2px*/
+  background-repeat: no-repeat;
+  transition: ease 500ms;
+}
+
+header a:hover {
+  background-size: 100% 1px;
+  /*width:100% height:2px*/
+}
+
+header ul {
+  display: flex;
+  letter-spacing: 0.2rem;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 4vh;
+  background-color: #000000E3;
+}
+
+/* MAIN */
+
+#menugeral {
+  height: 82.8vh;
+  display: flex;
+  background-color: yellow;
+}
+
+#menuapps {
+  width: 50vw;
+}
+
+#menuapps h2{
+  color: yellow;
+  padding-left: 3px;
+}
+
+#menufrp {
+  width: 50vw;
+}
+
+#menufrp h2{
+  color: yellow;
+  padding-left: 3px;
+}
+
+#cabecario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  height: 9vh;
+}
+
+#cabecario h1 {
+  color: #000000E3;
+  font-size: 40px;
+  padding-top: 4px;
+}
+
+/* APPS NORMAIS */
+
+#ram {
+  display: flex;
+  width: 50vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: yellow;
+  background-color: #000000E3;
+}
+
+#ram img {
+  width: 30px;
+}
+
+
+/* APPS DEV*/
+
+#android5 {
+  display: flex;
+  width: 50vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: yellow;
+  background-color: #000000E3;
+}
+
+#android5 img {
+  width: 30px;
+}
+
+#android6 {
+  display: flex;
+  width: 50vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: yellow;
+  background-color: #000000E3;
+}
+
+#android6 img {
+  width: 30px;
+}
+
+#frpbypass {
+  display: flex;
+  width: 50vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: yellow;
+  background-color: #000000E3;
+}
+
+#frpbypass img {
+  width: 30px;
+}
+
+#frpraposo {
+  display: flex;
+  width: 50vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: yellow;
+  background-color: #000000E3;
+}
+
+#frpraposo img {
+  width: 30px;
+}
+
+#quickshort {
+  display: flex;
+  width: 50vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: yellow;
+  background-color: #000000E3;
+}
+
+#quickshort img {
+  width: 30px;
+}
+
+#testdpc {
+  display: flex;
+  width: 50vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: yellow;
+  background-color: #000000E3;
+}
+
+#testdpc img {
+  width: 30px;
+}
+
+#settings {
+  display: flex;
+  width: 50vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: yellow;
+  background-color: #000000E3;
+}
+
+#settings img {
+  width: 30px;
+}
+
+#opensettings {
+  display: flex;
+  width: 50vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: yellow;
+  background-color: #000000E3;
+}
+
+#opensettings img {
+  width: 30px;
+}
+
+#screenlock {
+  display: flex;
+  width: 50vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: yellow;
+  background-color: #000000E3;
+}
+
+#screenlock img {
+  width: 30px;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  height: 3.2vh;
+  width: 100vw;
+}
+
+#social-media {
+  display: flex;
+  flex-direction: column;
+  height: 3.2vh;
+  width: 15vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #FFFFFFE3;
+}
+
+#s_icons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#s_icons img {
+  width: 2rem;
+  transition: ease 500ms;
+}
+
+#s_titulo {
+  display: flex;
+  flex-direction: column;
+}
+
+/* #COPYRIGHT */
+
+#copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.2vh;
+  width: 70vw;
+}
+
+#up {
+  display: flex;
+  flex-direction: column;
+  height: 3.2vh;
+  width: 15vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #FFFFFFE3;
+}
+
+#up img {
+  width: 1.5rem;
+  transition: 500ms;
+}
+
+#up img:hover {
+  transform: rotate(360deg);
+}
+
+#s_icons img:hover {
+  transform: scale(1.1);
+}
+
+
+/* ANDROID */
+@media (max-width: 720px) {
+
+  /* INICIO */
+
+  ul li {
+    font-size: 1rem;
+  }
+
+
+  /* FOOTER */
+ 
+
+  #s_icons img {
+    width: 1rem;
+    padding-top: 0.8rem;
+  }
+
+  #up img {
+    width: 1rem;
+    padding-top: 0.6rem;
+  }
+
+  #copyright {
+    padding-top: 0.6rem;
+  }
+}
