@@ -101,6 +101,21 @@ header ul {
   width: 30px;
 }
 
+#kill {
+  display: flex;
+  width: 50vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: yellow;
+  background-color: #000000E3;
+}
+
+#kill img {
+  width: 30px;
+}
 
 /* APPS DEV*/
 
